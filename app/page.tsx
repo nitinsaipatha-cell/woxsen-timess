@@ -1,7 +1,9 @@
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   return (
-    <h1 style={{ fontSize: "40px", padding: "40px" }}>
-      WOXSEN TIMES IS LIVE
-    </h1>
+    <div style={{ padding: "50px", fontSize: "40px", color: "red" }}>
+      🚀 WOXSEN TIMES DEPLOYMENT TEST
+    </div>
   );
 }
